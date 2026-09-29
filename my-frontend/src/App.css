@@ -1,0 +1,46 @@
+/* --- Ultimate Pastel Yellow & Pink Override --- */
+
+body, html, #root {
+  background-color: #FFF5D1 !important;
+  color: #4A3B3C !important;
+  min-height: 100vh;
+}
+
+/* Force the main dashboard wrapper to use pastel yellow */
+div {
+  /* This targets major dark background classes if they are hardcoded */
+  background-color: inherit;
+}
+
+/* Override the dark header/cards to clean white with pink borders */
+.bg-slate-900, .bg-gray-900, .bg-slate-800, .bg-gray-800 {
+  background-color: #FFFDF9 !important;
+  border: 2px solid #FFD1DC !important;
+  color: #4A3B3C !important;
+}
+
+/* Style cards and containers */
+.card, div[class*="rounded"], div[class*="shadow"] {
+  background-color: #ffffff !important;
+  border-color: #FFD1DC !important;
+}
+
+/* Buttons to soft pink */
+button, .btn-primary, a[class*="bg-"] {
+  background-color: #FF8DA1 !important;
+  color: #ffffff !important;
+}
+
+button:hover {
+  background-color: #E87A90 !important;
+}
+
+/* Text color fixes for readability */
+h1, h2, h3, h4, span, p, label {
+  color: #4A3B3C !important;
+}
+
+/* Highlight main titles in deep pink */
+h1, h2 {
+  color: #C84B61 !important;
+}
